@@ -1,10 +1,20 @@
 body {
 	text-align: center;
 	font-family: 'Noto Sans', sans-serif;
-	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxu5cAPTqM2gjI9fcKj-CGh3hVHGJRU_Zb7mYdj6vmPXdpcAuTyw');
-	background-position: center;
-	background-size: cover;
 }	
+
+#background {
+	background-image: url('https://cdn.pixabay.com/photo/2016/10/07/14/39/space-1721679_960_720.jpg');
+	background-position: bottom;
+	background-size: cover;
+	padding: 9em;
+}
+
+h2 {
+	margin: 0;
+	color: #d6d6d6;
+	font-size: 3.25em;
+}
 
 nav ul {
   padding: 0;   
@@ -12,23 +22,30 @@ nav ul {
   text-align: center;
 }
 
-p {
-	font-size: 1.25em;
-	color: blue;
+nav ul li {
+	display: inline;
+	padding: 20px;
 }
 
 header {
 	color: #02e1e5;
 }
 
-#about {
-	font-size: 2em;
+#about2, #exp2, #proj2, #contact2 {
+	padding: 2em;
+}
+#about2, #proj2 {
+	background-color: #111111;
+}
+
+#exp2, #contact2 {
+	background-color: #840101;
+}
+p {
+	font-size: 1.25em;
+	color: blue;
 }
 
 a {
-	color: yellow;
+	color: red;
 } 
-
-div p {
-	font-style: italic;
-}
