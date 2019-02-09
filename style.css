@@ -11,7 +11,6 @@ body {
 }
 
 h2 {
-	margin: 0;
 	color: #d6d6d6;
 	font-size: 3.25em;
 }
@@ -32,6 +31,7 @@ header {
 }
 
 #about2, #exp2, #proj2, #contact2 {
+	border: 2em green;
 	padding: 2em;
 }
 #about2, #proj2 {
