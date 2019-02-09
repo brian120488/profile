@@ -5,7 +5,6 @@ let exp2 = document.getElementById("exp2");
 let proj2 = document.getElementById("proj2");
 let contact2 = document.getElementById("contact2");
 
-
 document.addEventListener("click", whenClicked);
 
 about2.addEventListener("mouseover", whenHovering);
@@ -17,9 +16,6 @@ about2.addEventListener("mouseout", whenNotHovering);
 exp2.addEventListener("mouseout", whenNotHovering);
 proj2.addEventListener("mouseout", whenNotHovering);
 contact2.addEventListener("mouseout", whenNotHovering);
-
-
-//about.addEventListener("mouseout", whenNotHovering);
 
 let x = 0;
 
@@ -35,7 +31,7 @@ function whenClicked() {
 }
 
 function whenHovering() {
-	this.style.border = "thick solid gray";
+	this.style.border = "medium solid gray";
 	//about.style.border = "green";
 }
 
