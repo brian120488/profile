@@ -1,11 +1,10 @@
 body {
 	text-align: center;
 	font-family: 'Noto Sans', sans-serif;
-	background-image: url("red_moon.jpg");
-
 }	
 
 #background {
+	background-image: url("red_moon.jpg");
 	background-position: bottom;
 	background-size: cover;
 	padding: 9em;
