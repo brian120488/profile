@@ -11,7 +11,8 @@ body {
 }
 
 h2 {
-	color: #d6d6d6;
+	margin: 0;
+	color: white;
 	font-size: 3.25em;
 }
 
@@ -34,13 +35,18 @@ header {
 	border: 2em green;
 	padding: 2em;
 }
-#about2, #proj2 {
-	background-color: #111111;
+#about2 {
+	background-image: linear-gradient(#111111, rgb(3,6,2));
 }
 
-#exp2, #contact2 {
-	background-color: #840101;
+#binary_img {
+	background-image: url("binary_rain.gif");
 }
+
+#contact2 {
+	background: black;
+}
+
 p {
 	font-size: 1.25em;
 	color: blue;
